@@ -1,0 +1,87 @@
+.flexy{
+    border: 1px solid lightpink;
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: back 10s linear 3s infinite;
+}
+.flex{
+    margin-left: 50px;
+    margin-top: 50px;
+    animation: fixed 10s linear 3s infinite;
+   
+}
+.save{
+    margin-left: 30px;
+    max-width: 250px !important;
+    line-height: 25px;
+    font-size: 20px;
+    color: grey;
+
+}
+.iphone-2{
+    width: 200px;
+
+    margin-left: 500px;
+    margin-top: 200px;
+    animation: piggy-phone 7s linear 3s infinite;
+}
+@keyframes piggy-phone{
+    0%{
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+    25%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    75%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    100%{
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+}
+
+@keyframes back{
+0%{
+    background-color: white;
+    h1{
+        color: lightpink;
+    }
+}
+25%{
+    background-color: lightpink;
+    color: white;
+}
+50%{
+    background-color: lightpink;
+    color: white !important;
+}
+100%{
+    background-color: lightpink;
+    color: white !important; 
+}
+}
+
+@keyframes flex{
+    0%{
+        color: lightpink;
+    }
+    25%{
+        color: white;
+    }
+    50%{
+        color: white !important;
+    }
+    100%{
+        color: lightpink !important;
+    }
+}
